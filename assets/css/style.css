@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: orangered;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+#logo{
+    width: 100px;
+}
+
+body{
+    font-size: 14px;
+}
+
+img{
+    width: 330px;
+}
+
+.primafila{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 160px;
+}
+
+.secondafila{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 160px;
+}
+
+.textred{
+    color: red;
+}
+
+.text{
+    text-decoration: line-through;
+}
