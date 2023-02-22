@@ -5,10 +5,11 @@
 }
 
 header{
+    font-size: 16px;
     background-color: orangered;
     padding: 12px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     position: fixed;
     top: 0;
     left: 0;
@@ -31,7 +32,7 @@ img{
 .primafila{
     display: flex;
     flex-direction: row;
-    margin: 30px 160px;
+    margin: 100px 160px;
 }
 
 .secondafila{
@@ -46,4 +47,30 @@ img{
 
 .text{
     text-decoration: line-through;
+}
+
+.etichette{
+    margin: 150px;
+}
+
+.etired{
+    background-color: red;
+    color: white;
+    padding: 1px 2px;
+}
+
+.etigreen{
+    background-color: green;
+    color: white;
+    padding: 1px 2px;
+}
+
+.etichettared{
+    margin: 150px;
+}
+
+.etiros{
+    background-color: red;
+    color: white;
+    padding: 1px 2px;
 }
